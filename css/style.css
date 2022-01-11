@@ -1,0 +1,43 @@
+:root {
+  --clr-desaturated-red: hsl(0, 36%, 70%);
+  --clr-soft-red: hsl(0, 93%, 68%);
+  --clr-dark-grayish-red: hsl(0, 6%, 24%);
+  --clr-white: hsl(255, 100%, 100%);
+  --linear-1: Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+  --linear-2: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+  --size: 16px;
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-bold: 600;
+  --family-josefinSans: "Josefin Sans", "sans-serif";
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::-moz-selection {
+  background-image: var(--clr-soft-red);
+  color: var(--clr-white);
+}
+
+*::selection {
+  background-image: var(--clr-soft-red);
+  color: var(--clr-white);
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  font-size: var(--size);
+  font-family: var(--family-josefinSans);
+}
+/*# sourceMappingURL=style.css.map */
