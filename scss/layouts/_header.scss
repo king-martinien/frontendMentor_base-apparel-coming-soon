@@ -1,0 +1,30 @@
+#header {
+
+  .header-container {
+    height: 65px;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--clr-dark-grayish-red);
+
+    &__circle {
+      width: 22px;
+      height: 22px;
+      border: 3px solid var(--clr-soft-red);
+      border-radius: 50%;
+    }
+
+    &__text {
+      width: 100px;
+      font-size: 12px;
+      line-height: 14px;
+      font-weight: var(--fw-bold);
+    }
+  }
+}
