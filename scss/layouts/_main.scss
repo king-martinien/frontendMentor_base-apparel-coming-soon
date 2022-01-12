@@ -1,9 +1,61 @@
 #main {
   .content {
+    text-align: center;
+
+    .container {
+      padding: 45px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 25px;
+    }
+
     &__title {
-      font-size: 32px;
-      text-align: center;
-      width: 160px;
+      font-size: 40px;
+      width: 200px;
+
+      .soft-red {
+        color: var(--clr-desaturated-red);
+      }
+
+      .dark-red {
+        color: var(--clr-dark-grayish-red);
+      }
+    }
+
+    &__text {
+      color: var(--clr-desaturated-red);
+      line-height: 24px;
+    }
+
+    &__form {
+      width: 100%;
+
+      .entry {
+        position: relative;
+        height: 45px;
+        display: flex;
+
+        .field {
+          color: var(--clr-desaturated-red);
+          border-radius: 50px;
+          border: 2px solid var(--clr-desaturated-red);
+          padding-left: 16px;
+
+          &::placeholder {
+            color: inherit;
+          }
+        }
+
+        .submit-btn {
+          border-radius: 50px;
+          position: absolute;
+          right: 0;
+          height: 100%;
+          width: 65px;
+        }
+      }
     }
   }
 }

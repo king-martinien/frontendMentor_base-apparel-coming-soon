@@ -42,3 +42,9 @@ body {
   font-size: var(--size);
   font-family: var(--family-josefinSans);
 }
+
+input, button {
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+}
